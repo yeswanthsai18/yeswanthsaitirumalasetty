@@ -2,11 +2,11 @@ import React from "react";
 import "./Projects.css";
 
 // Import Project Images
-import StockPredictionImg from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Blog - How Home Services Businesses Can Use Chatbots.webp";
-import BankingAppImg from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Blogs_Paytm_Banking-Security.jpg";
-import CustomerSegmentationImg from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Customer-Segmentation-Analysis.jpg";
-import HandwrittenEvalImg from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/ocr.webp";
-import YoutubeSummarizationImg from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/sddefault.jpg";
+import StockPredictionImg from "/vercel/path0/src/Blog - How Home Services Businesses Can Use Chatbots.webp";
+import BankingAppImg from "/vercel/path0/src/Blogs_Paytm_Banking-Security.jpg";
+import CustomerSegmentationImg from "/vercel/path0/src/Customer-Segmentation-Analysis.jpg";
+import HandwrittenEvalImg from "/vercel/path0/src/ocr.webp";
+import YoutubeSummarizationImg from "/vercel/path0/src/sddefault.jpg";
 
 // Project Data
 const projects = [
