@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/yeswanthsaitirumalasetty/static/css/main.fe27ee0a.css",
+    "main.js": "/yeswanthsaitirumalasetty/static/js/main.c62539fa.js",
+    "static/media/stock.png": "/yeswanthsaitirumalasetty/static/media/stock.1e9ff19667b04326317d.png",
+    "static/media/Gojo-Background-PNG.png": "/yeswanthsaitirumalasetty/static/media/Gojo-Background-PNG.98bcd92ba169da7aec51.png",
+    "static/media/Yeswanth photo.jpg": "/yeswanthsaitirumalasetty/static/media/Yeswanth photo.190c01ce0a41cb910e69.jpg",
+    "static/media/Datapoint.jpg": "/yeswanthsaitirumalasetty/static/media/Datapoint.37a412605110c6e59a1d.jpg",
+    "static/media/Customer-Segmentation-Analysis.jpg": "/yeswanthsaitirumalasetty/static/media/Customer-Segmentation-Analysis.337562142bdb89c3c307.jpg",
+    "static/media/w1.jpg": "/yeswanthsaitirumalasetty/static/media/w1.85ea2a0d5f9bde8ce900.jpg",
+    "static/media/res1.png": "/yeswanthsaitirumalasetty/static/media/res1.017d5ceaf062206adac2.png",
+    "static/media/res2.png": "/yeswanthsaitirumalasetty/static/media/res2.a0ab77534580efa1e4cc.png",
+    "static/media/SealAllBlue.jpg": "/yeswanthsaitirumalasetty/static/media/SealAllBlue.d153a0f17b89b177ec23.jpg",
+    "static/media/Blog - How Home Services Businesses Can Use Chatbots.webp": "/yeswanthsaitirumalasetty/static/media/Blog - How Home Services Businesses Can Use Chatbots.4d5e847c7a04bbc0cb35.webp",
+    "static/media/sddefault.jpg": "/yeswanthsaitirumalasetty/static/media/sddefault.ddb3d6cf1075b516fd74.jpg",
+    "static/media/Blogs_Paytm_Banking-Security.jpg": "/yeswanthsaitirumalasetty/static/media/Blogs_Paytm_Banking-Security.1595b9897a5c4dbc9770.jpg",
+    "static/media/ocr.webp": "/yeswanthsaitirumalasetty/static/media/ocr.6743492c17d8f0cd0915.webp",
+    "static/media/1453553-1566207284806-7620.webp": "/yeswanthsaitirumalasetty/static/media/1453553-1566207284806-7620.dbedfc058fce81f43cf2.webp",
+    "index.html": "/yeswanthsaitirumalasetty/index.html",
+    "main.fe27ee0a.css.map": "/yeswanthsaitirumalasetty/static/css/main.fe27ee0a.css.map",
+    "main.c62539fa.js.map": "/yeswanthsaitirumalasetty/static/js/main.c62539fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe27ee0a.css",
+    "static/js/main.c62539fa.js"
+  ]
+}
