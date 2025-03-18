@@ -3,9 +3,9 @@ import "./Research.css";
 import { FaUsers, FaCalendarAlt, FaMapMarkerAlt, FaBook } from "react-icons/fa";
 
 // Import Research Images
-import ResearchImage from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/stock.png";
-import ResearchResult1 from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/res2.png";
-import ResearchResult2 from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/res1.png";
+import ResearchImage from "/vercel/path0/src/stock.png";
+import ResearchResult1 from "/vercel/path0/src/res2.png";
+import ResearchResult2 from "/vercel/path0/src/res1.png";
 
 function Research() {
   return (
