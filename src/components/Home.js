@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import profileImage from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/w1.jpg"; // Profile image
-import petImage from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Gojo-Background-PNG.png"; // Pet image
+import profileImage from "/vercel/path0/src/w1.jpg"; // Profile image
+import petImage from "/vercel/path0/src/Gojo-Background-PNG.png"; // Pet image
 
 function Home() {
   const navigate = useNavigate();
