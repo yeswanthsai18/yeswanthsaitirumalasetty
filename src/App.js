@@ -27,7 +27,7 @@ function MainContent() {
   return (
     <div>
       
-      <Routes>
+     <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
@@ -36,7 +36,7 @@ function MainContent() {
         <Route path="/education" element={<Education />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
+      </BrowserRouter>
   {showNavbar && <Navbar />}
     </div>
   );
