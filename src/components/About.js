@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Yeswanth photo.jpg"; // Ensure correct path
+import aboutImage from "/vercel/path0/src/Yeswanth photo.jpg"; // Ensure correct path
 import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaDownload } from "react-icons/fa"; // Added download icon
 
 function About() {
