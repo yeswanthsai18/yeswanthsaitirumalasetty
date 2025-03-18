@@ -3,9 +3,9 @@ import "./Experience.css";
 import { FaCalendarAlt } from "react-icons/fa"; 
 
 // Import Company Logos
-import TCSLogo from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/download.png";
-import DatapointLogo from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/Datapoint.jpg";
-import VerzeoLogo from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/components/1453553-1566207284806-7620.webp";
+import TCSLogo from "/vercel/path0/src/download.png";
+import DatapointLogo from "/vercel/path0/src/Datapoint.jpg";
+import VerzeoLogo from "/vercel/path0/src/components/1453553-1566207284806-7620.webp";
 
 function Experience() {
   const experiences = [
