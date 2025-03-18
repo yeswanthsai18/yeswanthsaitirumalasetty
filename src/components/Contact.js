@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaShareAlt, FaGithub, FaLinkedin, FaInstagram, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import clipboardIcon from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/cpy.png"; // Import clipboard icon
+import clipboardIcon from "/vercel/path0/src/cpy.png"; // Import clipboard icon
 import "./Contact.css";
 
 function Contact() {
