@@ -26,7 +26,7 @@ function MainContent() {
 
   return (
     <div>
-      {showNavbar && <Navbar />}
+      
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -37,6 +37,7 @@ function MainContent() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+  {showNavbar && <Navbar />}
     </div>
   );
 }
