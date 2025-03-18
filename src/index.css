@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  padding-top: 80px; /* Adjust this value to match navbar height */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure all pages start below navbar */
+.page-container {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+
