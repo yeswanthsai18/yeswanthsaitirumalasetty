@@ -1,0 +1,250 @@
+/* Research Section */
+.research {
+    text-align: center;
+    padding: 80px 10% 60px;
+    background: linear-gradient(to right, #0f172a, #1e293b); /* Dark Navy Blue */
+    color: #d1d5db; /* Light Gray for readability */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+/* Overall Research Container */
+.research-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Research Card */
+.research-card {
+    background: rgba(255, 255, 255, 0.08); /* Keeping previous background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    width: 90%;
+    text-align: center;
+    border: 2px solid #60a5fa; /* Match Home Page Heading Color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Research Image */
+.research-top-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 12px;
+    border: 3px solid #60a5fa; /* Match Navbar Color */
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 8px 16px rgba(96, 165, 250, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.research-top-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(96, 165, 250, 0.6);
+}
+
+/* Research Title */
+.research-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Home Page Heading */
+    margin-bottom: 15px;
+}
+
+/* Divider */
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #60a5fa; /* Match Heading */
+    margin: 10px 0;
+}
+
+/* Research Details Grid */
+.research-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 15px;
+}
+
+/* Individual Detail Box */
+.detail-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #d1d5db;
+}
+
+/* Different Color for Headings */
+.detail-box strong {
+    color: #60a5fa; /* Match Home Page Heading */
+    text-decoration: underline;
+}
+
+/* Icons inside Research Details */
+.detail-box .icon {
+    color: #60a5fa; /* Match Home Page Heading */
+    font-size: 1.3rem;
+    margin-right: 6px;
+}
+
+/* Abstract & Research Results Cards */
+.research-content {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Justified Abstract Text */
+.research-abstract {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #d1d5db;
+}
+
+/* Abstract Heading */
+.abstract-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Home Page Heading */
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* Research Results Section */
+.research-results-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Home Page Heading */
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+/* Research Results Section */
+.research-results {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin-top: 10px;
+}
+
+/* Individual Result Box */
+.result-box {
+    text-align: center;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Result Image */
+.result-image {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Research Topics Heading */
+.related-topics {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Home Page Heading */
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+/* Research Tags */
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+/* Individual Tag Style */
+.tag {
+    background: #1e293b; /* Deep Navy for Soft Contrast */
+    color: #d1d5db; /* Soft Light Gray */
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Hover Effect for Research Tags */
+.tag:hover {
+    background: #60a5fa; /* Brighter Blue */
+    color: #0f172a; /* Dark Navy for Contrast */
+    transform: scale(1.05);
+    box-shadow: 0 5px 12px rgba(96, 165, 250, 0.6); /* Soft Glow Effect */
+}
+
+/* Hover Effect for Research Images */
+.result-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Research Result Text */
+.result-text {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Home Page Heading */
+    text-align: center;
+}
+
+/* View Publication Button */
+.publication-button {
+    background: #60a5fa; /* Matched Home Page Button */
+    padding: 14px 26px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #0f172a;
+}
+
+/* Hover Effect */
+.publication-button:hover {
+    background: #38bdf8;
+    transform: scale(1.05);
+}

@@ -1,0 +1,108 @@
+/* Skills Section */
+.skills {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 100px 10% 60px;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: #d1d5db;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Section Title */
+.skills h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #60a5fa; /* Matching Theme Color */
+}
+
+/* Skills Grid - Now in Rows of 5 */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 Per Row */
+    gap: 25px; /* Increased gap for more spacing */
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Skill Card */
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px; /* Increased Size */
+    height: 140px; /* Increased Size */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Skill Card Hover Effect - Glow */
+.skill-card:hover {
+    transform: scale(1.08);
+    border-color: #60a5fa; /* Light Blue */
+    box-shadow: 0 0px 15px rgba(96, 165, 250, 0.6); /* Glow Effect */
+}
+
+/* Skill Icon */
+.skill-icon {
+    font-size: 2.6rem; /* Increased Icon Size */
+    margin-bottom: 8px;
+}
+
+/* Skill Name */
+.skill-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .skills {
+        padding-top: 120px;
+    }
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 Per Row for Tablets */
+        gap: 20px;
+    }
+    .skill-card {
+        width: 130px;
+        height: 130px;
+    }
+    .skill-icon {
+        font-size: 2.4rem;
+    }
+    .skill-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 Per Row for Mobile */
+        gap: 15px;
+    }
+    .skill-card {
+        width: 120px;
+        height: 120px;
+    }
+    .skill-icon {
+        font-size: 2.2rem;
+    }
+    .skill-card p {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,160 @@
+/* Projects Section */
+.projects {
+    text-align: center;
+    padding: 100px 10%;
+    background: linear-gradient(to right, #0f172a, #1e293b); /* Dark Navy Blue */
+    color: #d1d5db; /* Light Gray for readability */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #38bdf8; /* Match Navbar Color */
+}
+
+/* Projects Grid */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Project Card */
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 0.4);
+    border: 2px solid #38bdf8; /* Match Navbar Color */
+}
+
+/* Project Image */
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Project Title */
+.project-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #60a5fa; /* Match Navbar Color */
+    margin-top: 15px;
+}
+
+/* Project Full Description */
+.project-description {
+    font-size: 1rem;
+    color: #d1d5db; /* Light Gray */
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Bullet Points */
+.project-impact {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.project-impact li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Bullet Points with Blue Tick Marks */
+.project-impact li::before {
+    content: "✔";
+    color: #60a5fa; /* Match Navbar Color */
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+/* Tech Stack Inspired from Experience Section */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Tech Badge */
+.tech-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Tech Badge Hover Effect */
+.tech-badge:hover {
+    border-color: #38bdf8; /* Match Navbar Color */
+    box-shadow: 0 0px 15px rgba(56, 189, 248, 0.8);
+}
+
+/* View Project Button */
+.view-project-btn {
+    background: #60a5fa; /* New Default Button Color */
+    color: #0f172a;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* View Project Button Hover */
+.view-project-btn:hover {
+    background: #38bdf8; /* New Hover Button Color */
+    box-shadow: 0 0px 15px rgba(56, 189, 248, 0.8);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

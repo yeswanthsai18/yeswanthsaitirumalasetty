@@ -1,0 +1,96 @@
+/* Navbar Container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #16253a, #22364d); /* Lighter Navy Gradient */
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  height: 65px;
+}
+
+/* Navigation Container */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures spacing between home icon and links */
+  width: 100%;
+  max-width: 1300px; /* Increased for better spacing */
+  padding: 0 20px;
+}
+
+/* Home Icon */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #60a5fa; /* Matching Theme Color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #38bdf8; /* Slightly Brighter Blue */
+}
+
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; /* Ensures uniform spacing between items */
+  gap: 30px;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px; /* Small offset for uniformity */
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+/* Navigation Links Styling */
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f8fafc; /* Almost White */
+  padding: 12px 18px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease, box-shadow 0.3s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  background: rgba(96, 165, 250, 0.2); /* Light Blue Highlight */
+  transform: scale(1.05);
+  color: #60a5fa; /* Light Blue */
+}
+
+/* Active Link - Highlights Current Page */
+.nav-links .active-link {
+  border: 2px solid #60a5fa; /* Matching Theme Color */
+  background: rgba(96, 165, 250, 0.2); /* Light Blue Background */
+  color: #60a5fa; /* Light Blue */
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(96, 165, 250, 0.6); /* Soft Blue Glow */
+  transform: scale(1.08);
+}
+
+/* Home Icon */
+.home-icon {
+  font-size: 2rem;
+  color: #f8fafc; /* Almost White */
+  transition: color 0.3s ease;
+  margin-right: 20px; /* Ensuring uniform space between Home and 'About' */
+}
+
+.home-icon:hover {
+  color: #60a5fa; /* Light Blue */
+}

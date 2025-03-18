@@ -1,0 +1,185 @@
+/* About Section */
+.about {
+  background: linear-gradient(to right, #0f172a, #1e293b); /* Dark Navy Blue */
+  color: #d1d5db; /* Light Gray for readability */
+  padding: 80px 10%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #60a5fa; /* Matched Home Page Heading Color */
+}
+
+/* About Container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Profile Image */
+.about-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #38bdf8; /* Matched Navbar Color */
+  object-fit: cover;
+  box-shadow: 0px 6px 12px rgba(56, 189, 248, 0.4);
+}
+
+/* Info Cards */
+.about-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Individual Info Card */
+.info-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Hover Effect */
+.info-card:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+}
+
+/* Icons */
+.icon {
+  font-size: 1.2rem;
+  color: #38bdf8; /* Matched Navbar Color */
+}
+
+/* Email Link */
+.info-card a {
+  color: #d1d5db;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+  color: #60a5fa; /* Brighter Blue */
+}
+
+/* About Bio & Skills Container - Now Matches Experience Card */
+.about-bio {
+  background: rgba(255, 255, 255, 0.1); /* MATCHING EXPERIENCE CARD */
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2); /* SAME AS EXPERIENCE CARD */
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.about-bio:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0px 20px rgba(255, 255, 255, 0.4);
+  border: 2px solid #38bdf8; /* SAME AS EXPERIENCE CARD */
+}
+
+/* Section Headings Inside Container */
+.about-bio h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #60a5fa; /* Matched Home Page Heading Color */
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Bullet Points */
+.about-bio ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-bio li {
+  font-size: 1rem;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Bullet Points Style - Blue Tick */
+.about-bio li::before {
+  content: "✔";
+  color: #60a5fa; /* Blue Tick */
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Make Page Scrollable but Keep Background */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+/* Resume Button Container */
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px; /* Reduced space */
+}
+
+/* Resume Button */
+.resume-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #60a5fa;
+  color: #0f172a;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(96, 165, 250, 0.4);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Resume Button Icon */
+.resume-button .icon {
+  font-size: 1.3rem;
+  color: #0f172a;
+}
+
+/* Hover Effect */
+.resume-button:hover {
+  background: #38bdf8;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(96, 165, 250, 0.5);
+}
+
+
