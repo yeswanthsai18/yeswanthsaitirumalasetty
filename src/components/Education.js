@@ -3,7 +3,7 @@ import "./Education.css";
 import { FaUniversity, FaCalendarAlt, FaStar } from "react-icons/fa";
 
 // Import University Logos
-import KentLogo from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/SealAllBlue.jpg";
+import KentLogo from "/vercel/path0/src/SealAllBlue.jpg";
 import AmritaLogo from "C:/Users/yeswa/OneDrive/Desktop/portfolio/src/amrita-vishwa-vidyapeetham-logo-png_seeklogo-519922.png";
 
 function Education() {
