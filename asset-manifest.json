@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yeswanthsaitirumalasetty/static/css/main.fe27ee0a.css",
-    "main.js": "/yeswanthsaitirumalasetty/static/js/main.c62539fa.js",
+    "main.css": "/yeswanthsaitirumalasetty/static/css/main.1275c7f0.css",
+    "main.js": "/yeswanthsaitirumalasetty/static/js/main.29a2988f.js",
     "static/media/stock.png": "/yeswanthsaitirumalasetty/static/media/stock.1e9ff19667b04326317d.png",
     "static/media/Gojo-Background-PNG.png": "/yeswanthsaitirumalasetty/static/media/Gojo-Background-PNG.98bcd92ba169da7aec51.png",
     "static/media/Yeswanth photo.jpg": "/yeswanthsaitirumalasetty/static/media/Yeswanth photo.190c01ce0a41cb910e69.jpg",
@@ -17,11 +17,11 @@
     "static/media/ocr.webp": "/yeswanthsaitirumalasetty/static/media/ocr.6743492c17d8f0cd0915.webp",
     "static/media/1453553-1566207284806-7620.webp": "/yeswanthsaitirumalasetty/static/media/1453553-1566207284806-7620.dbedfc058fce81f43cf2.webp",
     "index.html": "/yeswanthsaitirumalasetty/index.html",
-    "main.fe27ee0a.css.map": "/yeswanthsaitirumalasetty/static/css/main.fe27ee0a.css.map",
-    "main.c62539fa.js.map": "/yeswanthsaitirumalasetty/static/js/main.c62539fa.js.map"
+    "main.1275c7f0.css.map": "/yeswanthsaitirumalasetty/static/css/main.1275c7f0.css.map",
+    "main.29a2988f.js.map": "/yeswanthsaitirumalasetty/static/js/main.29a2988f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe27ee0a.css",
-    "static/js/main.c62539fa.js"
+    "static/css/main.1275c7f0.css",
+    "static/js/main.29a2988f.js"
   ]
 }
